@@ -1,0 +1,18 @@
+/* Global styles - Reset or custom overrides */
+
+/* Logo Toggling */
+.header-dark .dark-logo {
+    display: none;
+}
+
+.header-dark .light-logo {
+    display: block;
+}
+
+.header-light .dark-logo {
+    display: block;
+}
+
+.header-light .light-logo {
+    display: none;
+}
