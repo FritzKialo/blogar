@@ -8,10 +8,11 @@ out/
 # environment variables
 .env
 .env.local
-.env.*.local
+.env*.local
 
-# Prisma (only if not using DB yet)
-prisma/
+# Prisma - ignore local database files only
+prisma/*.db
+prisma/*.db-journal
 
 # Logs
 npm-debug.log*
