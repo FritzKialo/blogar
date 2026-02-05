@@ -35,7 +35,7 @@ export default async function Home() {
               <p className="lead">No articles yet. Be the first to write one!</p>
             </div>
           ) : (
-            articles.map((article) => (
+            articles.map((article: any) => (
               <div key={article.id} className="col-lg-4 col-xl-4 col-md-6 col-12 col-sm-6 mb-4">
                 <div className="content-block post-grid post-grid-transparent">
                   <div className="post-content">
