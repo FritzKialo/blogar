@@ -24,8 +24,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     }
 
     const userId = session?.user?.id;
-    const isLiked = userId ? article.likes.some(like => like.userId === userId) : false;
-
+    const isLiked = userId ? article.likes.some((like: any) => like.userId === userId) : false;
+    
     return (
         <div className="container mt-5 pt-5 pb-5">
             <div className="row justify-content-center">
